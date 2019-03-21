@@ -101,19 +101,6 @@ class CommonUtility:
         return message
     
     @staticmethod
-    def combined_json_data(local_paths):
-        """ combined_json_data function is used to collate all json data
-
-        @returns:
-            This will collated JSON
-        """
-        combined_list = []
-        for metadata_file in local_paths:
-            single_metadata = CommonUtility.read_json_files(metadata_file)
-            combined_list.extend(single_metadata)
-        return combined_list
-
-    @staticmethod
     def generate_uuid():
         """ generate_uuid function is used to generate uuid of 32 character
 
