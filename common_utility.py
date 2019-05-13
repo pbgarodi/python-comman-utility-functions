@@ -164,7 +164,6 @@ class CommonUtility:
         if(os.path.isfile(file)):
             os.remove(file)
             removed_status = True
-
         return removed_status
 
     @staticmethod
@@ -182,7 +181,6 @@ class CommonUtility:
             flag_status = True
         else:
             flag_status = False
-
         return flag_status
 
     @staticmethod
